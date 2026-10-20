@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10182e">
+  <meta name="description" content="یک داستان کوچک، برای یک عشق بزرگ.">
+  <title>رومی، معجزه‌ی نیمه‌شب</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient-stars" id="ambient-stars" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="بازگشت به ابتدای سایت">R <span>✧</span> I</a>
+    <button class="music-toggle" id="music-toggle" type="button" aria-pressed="false">
+      <span class="music-icon" aria-hidden="true">♫</span>
+      <span id="music-label">پیانوی ما</span>
+    </button>
+    <!-- برای فعال شدن موسیقی، فایل مجاز خودت را در assets/piano.mp3 قرار بده -->
+    <audio id="site-music" preload="none" loop>
+      <source src="assets/piano.mp3" type="audio/mpeg">
+    </audio>
+  </header>
+
+  <main>
+    <!-- 1. صفحه ورود -->
+    <section class="hero section-shell" id="home">
+      <div class="hero-frame" aria-hidden="true"></div>
+      <div class="hero-topline"><span></span> A UNIVERSE MADE FOR ROUMI <span></span></div>
+      <div class="hero-content">
+        <p class="eyebrow">برای تو، رومیِ من</p>
+        <div class="hero-title-wrap">
+          <span class="spark spark-a" aria-hidden="true">✧</span>
+          <h1>رومی، معجزه‌ی<br><em>نیمه‌شب</em></h1>
+          <span class="spark spark-b" aria-hidden="true">✦</span>
+        </div>
+        <div class="ornament" aria-hidden="true"><span></span>✧<span></span></div>
+        <p class="hero-copy">بعضی آشنایی‌ها ساده شروع می‌شن؛<br>اما تا عمق قلب آدم ریشه می‌دونن.</p>
+        <p class="month-mark">01 <i>·</i> اولین ماهِ ما</p>
+        <a class="button button-primary" href="#begin">ورود به دنیای ما <span aria-hidden="true">←</span></a>
+      </div>
+      <div class="floral floral-left" aria-hidden="true">
+        <span class="flower-stem"></span><span class="leaf leaf-a"></span><span class="leaf leaf-b"></span>
+        <div class="css-peony"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div>
+        <div class="css-tulip"><i></i><i></i><i></i></div>
+      </div>
+      <div class="floral floral-right" aria-hidden="true">
+        <span class="flower-stem"></span><span class="leaf leaf-a"></span><span class="leaf leaf-b"></span>
+        <div class="css-peony"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div>
+        <div class="css-tulip"><i></i><i></i><i></i></div>
+      </div>
+      <a class="scroll-cue" href="#begin" aria-label="رفتن به بخش بعدی"><span></span>آروم بیا پایین</a>
+    </section>
+
+    <!-- 2. داستان آشنایی -->
+    <section class="story section-shell section-pad" id="begin">
+      <div class="section-kicker">CHAPTER I <span>✧</span> آغاز ما</div>
+      <h2 class="section-title">معجزه از کجا <em>شروع شد؟</em></h2>
+      <p class="section-lead">قصه‌ی ما از یک برنامه‌ی ساده شروع شد؛ از میان آشنایی‌هایی که شاید قرار بود زود فراموش بشن. اما بعد، تو اومدی...</p>
+      <div class="story-layout">
+        <div class="photo-frame photo-tall">
+          <!-- جای عکس: تصویر شروع آشنایی یا عکس مورد علاقه‌تان را جایگزین کنید -->
+          <img src="assets/PHOTO-01.jpg" alt="جای عکس خاطره‌انگیز شما" loading="lazy">
+          <span class="photo-label">اولین جرقه‌ی قصه‌ی ما</span>
+        </div>
+        <div class="story-text">
+          <span class="quote-mark">“</span>
+          <p>من دنبال معجزه‌ای نبودم؛ اما تو اومدی و معنای خیلی چیزها رو عوض کردی.</p>
+          <p>از یک آشنایی معمولی، رسیدم به آدمی که حضورش برای من شبیه پیدا کردن یک تکه‌ی گمشده از آسمونه؛ چیزی که نمی‌دونستم دنبالش می‌گشتم، تا وقتی که پیداش کردم.</p>
+          <div class="editable-note">✎ یادته اولین دیتمون با اجرای زنده موسیقی چقد قشنگ ساخته شد؟</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. خاطرات و گالری -->
+    <section class="memories section-shell section-pad" id="memories">
+      <div class="section-kicker">CHAPTER II <span>✧</span> دفتر خاطرات</div>
+      <h2 class="section-title">یک ماه، <em>هزار خاطره</em></h2>
+      <p class="section-lead">شاید هنوز اول راه باشیم، اما همین یک ماه هم جا برای کلی حس و خاطره داشته.</p>
+      <div class="memory-grid">
+        <article class="memory-card memory-card-wide">
+          <div class="photo-frame">
+            <img src="assets/PHOTO-02.jpg" alt="جای عکس خاطره‌ی اول" loading="lazy">
+          </div>
+          <div class="memory-caption"><span>خاطره‌ی اول</span><p>یادتا اولین بار چقد واسه اولین کیسمون عذاب کشیدیم؟</p></div>
+        </article>
+        <article class="memory-card">
+          <div class="photo-frame">
+            <img src="assets/PHOTO-03.jpg" alt="جای عکس خاطره‌ی دوم" loading="lazy">
+          </div>
+          <div class="memory-caption"><span>خاطره‌ی دوم</span><p>هرموقه بهم نگاه میکنی مثل روز اول برام تازگی داره و قلبمو میلرزونه</p></div>
+        </article>
+        <article class="memory-card">
+          <div class="photo-frame">
+            <img src="assets/PHOTO-04.jpg" alt="جای عکس خاطره‌ی سوم" loading="lazy">
+          </div>
+          <div class="memory-caption"><span>خاطره‌ی سوم</span><p>بنظرم عشق واقعیمون قشنگ ترین خاطرمونه</p></div>
+        </article>
+      </div>
+      
+
+    <!-- 4. تو، رومی من -->
+    <section class="beloved section-shell section-pad" id="beloved">
+      <div class="section-kicker">CHAPTER III <span>✧</span> دختر کوچولوی من</div>
+      <div class="beloved-layout">
+        <div class="beloved-copy">
+          <h2 class="section-title">چیزهایی که در تو<br><em>تمام نمی‌شن</em></h2>
+          <p>رومیِ من، بعضی زیبایی‌ها فقط دیده نمی‌شن؛ آدم باهاشون زندگی می‌کنه. تو برای من فقط یک چهره‌ی ماه و یک لبخند دوست‌داشتنی نیستی؛ تو حسی هستی که با حضورت به روزهای معمولی من معنا می‌دی.</p>
+          <ul class="quality-list">
+            <li><span>✧</span><div><strong>[ویژگی اول رومی]</strong><small>عاشق جدی بودنت و کیوت شدنتم ، هم دختر کوچولوی خودمی هم پخته ترین پارتنر جهانی واسم</small></div></li>
+            <li><span>✧</span><div><strong>[ویژگی دوم رومی]</strong><small>شاید باورت نشه ولی خجالت کشیدنت تصویر مورد علاقم از توئه مخصوصا تو چشات</small></div></li>
+            <li><span>✧</span><div><strong>[ویژگی سوم رومی]</strong><small>اون نگاه عاشقانتو هیچوقت ازم پنهان نکن. میمیرم براش میدونی که؟</small></div></li>
+          </ul>
+        </div>
+        <div class="photo-frame beloved-photo">
+          <!-- جای عکس پرتره‌ی رومینا -->
+          <img src="assets/PHOTO-05.jpg" alt="جای عکس رومی" loading="lazy">
+          <span class="photo-label">ماه من، همین‌جا</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. نامه و شعر -->
+    <section class="letter-section section-shell section-pad" id="letter">
+      <div class="section-kicker">CHAPTER IV <span>✧</span> حرف‌های دلم</div>
+      <h2 class="section-title">حرف‌هایی که در دلم <em>مانده‌اند</em></h2>
+      <article class="love-letter">
+        <div class="letter-top"><span>برای رومینا</span><span>با تمام قلبم ✧</span></div>
+        <p>رومینای عزیزم،</p>
+        <p>نمی‌دونم چطور باید از چیزی حرف بزنم که از کلمه‌ها بزرگ‌تره. تو وارد زندگی من شدی، اما کم‌کم از یک حضور ساده فراتر رفتی؛ شدی بخشی از فکرهای بی‌هوا، لبخندهای ناگهانی و آرزوهایی که از این به بعد، تصویر تو هم توشون هست.</p>
+        <p>این یک ماه شاید در تقویم فقط چند ورق باشه، اما برای من شروع قصه‌ایه که دلم می‌خواد با حوصله بنویسمش؛ نه فقط در روزهای قشنگ، که در روزهای سخت هم. می‌خوام شنونده‌ات باشم، کنارت یاد بگیرم و کاری کنم که دوست داشتنم فقط در حرف‌های قشنگ خلاصه نشه.</p>
+        <p>دختر کوچولوی من، ممنون که از یک آشنایی ساده، چیزی ساختی که این‌همه برام عزیزه. من نمی‌تونم آینده رو پیش‌بینی کنم؛ اما می‌تونم با تمام صداقتم انتخاب کنم که برای ساختن فرداهامون تلاش کنم، با احترام، مهربونی و دلی که تو رو جدی دوست داره.</p>
+        <p class="letter-sign">ماهگرد اولمون مبارک، رومیِ من.<br>با عشق، ایلیا</p>
+        <div class="letter-flower" aria-hidden="true">❀</div>
+      </article>
+
+      <div class="poem-card">
+        <span class="poem-label">چند خط، برای ماهِ من</span>
+        <h3>معجزه‌ی تو</h3>
+        <p>
+          تو آمدی و شبم آسمانِ روشن شد<br>
+          سکوتِ خسته‌ی قلبم پُر از ترانه شدن شد<br>
+          اگرچه قصه‌ی ما تازه اولِ راه است<br>
+          دلم کنار تو مشتاقِ فصل‌های شدن شد
+        </p>
+        <p>
+          نه وعده می‌دهم دنیا همیشه گل‌باران<br>
+          نه می‌رسد همه‌ی روزها بهار و چراغان<br>
+          فقط بمان که بیاموزم، میانِ هر طوفان<br>
+          چگونه عشق بسازیم؛ آرام، راست، فراوان
+        </p>
+        
+
+      <div class="envelopes">
+        <h3>سه نامه‌ی کوچیک، برای وقت‌های مختلف</h3>
+        <p class="section-lead">هر پاکت رو لمس کن؛ یه تکه حرف از دلم باز می‌شه.</p>
+        <div class="envelope-grid">
+          <button class="envelope" type="button" data-letter="always"><span class="envelope-icon">✉</span><strong>چیزی که می‌خوام همیشه بدونی</strong><small>باز کردن نامه</small></button>
+          <button class="envelope" type="button" data-letter="sad"><span class="envelope-icon">✉</span><strong>وقتی دلت گرفت</strong><small>باز کردن نامه</small></button>
+          <button class="envelope" type="button" data-letter="future"><span class="envelope-icon">✉</span><strong>نامه‌ای برای آینده</strong><small>باز کردن نامه</small></button>
+        </div>
+        <div class="hidden-letter" id="hidden-letter" hidden aria-live="polite">
+          <button class="hidden-letter-close" id="close-letter" type="button" aria-label="بستن نامه">×</button>
+          <p class="hidden-letter-label" id="hidden-letter-label"></p>
+          <p id="hidden-letter-text"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. قول‌های واقع‌بینانه -->
+    <section class="promises section-shell section-pad" id="promises">
+      <div class="section-kicker">CHAPTER V <span>✧</span> قول‌هایی برای فردا</div>
+      <h2 class="section-title">دوست داشتن، فقط <em>گفتن نیست</em></h2>
+      <p class="section-lead">قول نمی‌دم همیشه همه‌چیز بی‌نقص باشه؛ قول می‌دم برای بهتر کردنش سهم خودم رو جدی بگیرم.</p>
+      <div class="promise-list">
+        <div class="promise-item"><span>01</span><p>وقتی حرفی در دلت هست، با حوصله گوش بدم؛ نه فقط برای جواب دادن، برای فهمیدنت.</p></div>
+        <div class="promise-item"><span>02</span><p>اگر اختلافی پیش اومد، به‌جای رنجوندن همدیگه، دنبال راهی برای حل کردنش باشیم.</p></div>
+        <div class="promise-item"><span>03</span><p>محبتم رو فقط برای مناسبت‌ها نگه ندارم؛ توی روزهای عادی هم نشونش بدم.</p></div>
+        <div class="promise-item"><span>04</span><p>برای اعتماد، احترام و آرامش بینمون مراقبت و تلاش کنم.</p></div>
+        <div class="promise-item"><span>05</span><p>کنار هم رشد کنیم؛ طوری که هر دومون بتونیم خودِ واقعی‌مون باشیم.</p></div>
+      </div>
+    </section>
+
+    <!-- 7. آینده -->
+    <section class="future section-shell section-pad" id="future">
+      <div class="section-kicker">CHAPTER VI <span>✧</span> فصل‌های نانوشته</div>
+      <h2 class="section-title">هنوز چقدر چیز قشنگ <em>پیش رومونه</em></h2>
+      <p class="section-lead">این‌ها فقط چند آرزوی کوچیکن؛ تو می‌تونی فهرست رو با رؤیاهای خودتون کامل کنی.</p>
+      <div class="dream-grid">
+        <article class="dream-card"><span>☾</span><h3>شب‌های کتاب</h3><p>برای هم کتاب بخونیم و وسط قصه‌ها، از دنیای خودمون حرف بزنیم.</p></article>
+        <article class="dream-card"><span>✿</span><h3>جاهای تازه</h3><p>بریم جاهایی که تا حالا ندیدیم و برای خودمون خاطره بسازیم.</p></article>
+        <article class="dream-card"><span>♫</span><h3>آهنگ‌های ما</h3><p>آهنگ‌هایی پیدا کنیم که بعداً با شنیدنشون یاد هم بیفتیم.</p></article>
+        <article class="dream-card"><span>✧</span><h3>[آرزوی دونفره]</h3><p>ازینجا بریم و زندگیه 
+موردعلاقمونو بسازیم</p></article>
+      </div>
+      <div class="future-photo photo-frame">
+        <!-- جای عکس دونفره -->
+        <img src="assets/PHOTO-06.jpg" alt="جای عکس دونفره‌ی شما" loading="lazy">
+        <span class="photo-label">یک روز، یک خاطره‌ی دیگر</span>
+      </div>
+    </section>
+
+    <!-- 8. پایان غافلگیرکننده -->
+    <section class="finale section-shell section-pad" id="forever">
+      <div class="finale-stars" aria-hidden="true">✧　·　✦　·　✧</div>
+      <div class="section-kicker">THE NEXT CHAPTER <span>✧</span> برای تمام فرداها</div>
+      <h2 class="section-title">و حالا، <em>یک سؤال برای تمام عمر</em></h2>
+      <p class="finale-lead">رومی جان، این پایان قصه نیست؛ فقط مکث کوچیکی بین فصل‌هاییه که هنوز ننوشته‌ایم.</p>
+      <div class="final-envelope">
+        <div class="seal">R<span>✧</span></div>
+        <p>برای رومینای من</p>
+        <h3>حاضری فصل‌های بعدی رو هم کنار هم بنویسیم؟</h3>
+        <p class="final-envelope-copy">نه با وعده‌ی یک زندگی بی‌دردسر؛ با امیدِ ساختن روزهایی که توش همدیگه رو می‌شنویم، انتخاب می‌کنیم و برای عشق‌مون جا باز می‌کنیم.</p>
+        <button class="button button-primary" id="reveal-finale" type="button">باز کردن آخرین نامه <span aria-hidden="true">✧</span></button>
+        <div class="final-reveal" id="final-reveal" hidden>
+          <div class="final-reveal-flower" aria-hidden="true">✿</div>
+          <p>اگر روزی این صفحه قدیمی شد، دلم می‌خواد دلیلش این باشه که خاطره‌های واقعی‌مون از کلمه‌هاش بیشتر شده.</p>
+          <p>ماهگرد اولمون مبارک، رومی من. این فقط شروعشه.</p>
+          <strong>دوستت دارم؛ امروز، و با تلاشی که برای فرداهامون می‌کنم.</strong>
+          <span class="signature">ایلیا ♡</span>
+        </div>
+      </div>
+      <p class="end-note">ساخته‌شده با عشق، برای یک ماهِ کوچک و یک آرزوی بزرگ.</p>
+      <a class="back-to-top" href="#top">بازگشت به ستاره‌ی اول ↑</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>R <i>✧</i> I</I></span>
+    <p>یک داستان کوچک، برای یک عشق بزرگ</p>
+  </footer>
+
+  <dialog class="letter-dialog" id="letter-dialog">
+    <button class="dialog-close" id="dialog-close" type="button" aria-label="بستن">×</button>
+    <span class="dialog-ornament">✧</span>
+    <p class="dialog-title" id="dialog-title"></p>
+    <p class="dialog-body" id="dialog-body"></p>
+  </dialog>
+</body>
+</html>
